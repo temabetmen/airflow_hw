@@ -13,7 +13,6 @@ sys.path.insert(0, path)
 
 from modules.pipeline import pipeline
 from modules.predict import predict
-# <YOUR_IMPORTS>
 
 args = {
     'owner': 'airflow',
