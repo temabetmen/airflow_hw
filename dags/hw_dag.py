@@ -32,7 +32,7 @@ with DAG(
         task_id='pipeline',
         python_callable=pipeline,
     )
-    # <YOUR_CODE>
+
     predict = PythonOperator(
         task_id='predict',
         python_callable=predict,
